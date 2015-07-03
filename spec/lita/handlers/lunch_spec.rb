@@ -6,6 +6,8 @@ describe Lita::Handlers::Lunch, lita_handler: true do
 
   it 'replies' do
     send_command('lunch')
-    expect(Lita::Handlers::Lunch::FINE_ESTABLISHMENTS).to include(replies.last)
+    reply = replies.last
+    expect(reply).to match("This week, it'll be")
+    expect(Lita::Handlers::Lunch::FINE_ESTABLISHMENTS).to include(reply[20..reply.length])
   end
 end

@@ -11,14 +11,16 @@ module Lita
         "Borelli’s",
         "Pizza Express",
         "Prezzo",
-        "The Darjeeling",
         "The Wheatsheaf",
         "Bill's",
-        "The Slug and Lettuce"
+        "The Slug and Lettuce",
+        "The Traditional Plaice",
+        "Domino's takeaway",
+        "Nando's takeaway"
       ]
 
       def lunch(response)
-        response.reply(FINE_ESTABLISHMENTS.sample)
+        response.reply( "This week, it'll be #{FINE_ESTABLISHMENTS.sample}")
       end
     end
 
