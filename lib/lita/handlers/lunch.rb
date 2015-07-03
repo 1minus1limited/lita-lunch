@@ -1,7 +1,7 @@
 module Lita
   module Handlers
     class Lunch < Handler
-      route /lunch(?:\s+me)?/, :lunch, command: true
+      route /lunch(?:\s+me)?/, :lunch, command: true, help: { "lita lunch" => "Returns a lunch venue" }
 
       FINE_ESTABLISHMENTS = [
         "Café Piccolo",
