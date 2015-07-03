@@ -1,6 +1,6 @@
 # lita-lunch
 
-TODO: Add a description of the plugin.
+Picks a lunch destination in Farnham
 
 ## Installation
 
@@ -12,8 +12,12 @@ gem "lita-lunch"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+Lol.
+
+Possible venues are specified in `lib/lita/handlers/lunch.rb`
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+`lita lunch`
+
+> [your perfect destination]
