@@ -11,7 +11,6 @@ module Lita
         "Borelli’s",
         "Pizza Express",
         "Prezzo",
-        "The Wheatsheaf",
         "Bill's",
         "The Slug and Lettuce",
         "The Traditional Plaice",
