@@ -6,7 +6,6 @@ module Lita
       FINE_ESTABLISHMENTS = [
         "Café Piccolo",
         "Zizzi’s",
-        "Farnham Tandoori",
         "The Mahaan",
         "Borelli’s",
         "Pizza Express",
@@ -15,11 +14,13 @@ module Lita
         "The Slug and Lettuce",
         "The Traditional Plaice",
         "Domino's takeaway",
-        "Nando's takeaway"
+        "Nando's takeaway",
+        "Sizzling Wok",
+        "Bengal Lounge"
       ]
 
       def lunch(response)
-        response.reply( "This week, it'll be #{FINE_ESTABLISHMENTS.sample}")
+        response.reply("This week, it'll be #{FINE_ESTABLISHMENTS.sample}")
       end
     end
 
