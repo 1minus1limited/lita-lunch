@@ -15,7 +15,6 @@ module Lita
         "The Traditional Plaice",
         "Domino's takeaway",
         "Nando's takeaway",
-        "Sizzling Wok",
         "Bengal Lounge"
       ]
 
