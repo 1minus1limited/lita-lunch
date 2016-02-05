@@ -15,7 +15,6 @@ module Lita
         "The Slug and Lettuce",
         "The Traditional Plaice",
         "Domino's takeaway",
-        "Nando's takeaway",
         "Bengal Lounge",
         "The Jolly Sailor"
       ]
