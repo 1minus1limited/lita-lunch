@@ -16,7 +16,8 @@ module Lita
         "The Traditional Plaice",
         "Domino's takeaway",
         "Bengal Lounge",
-        "The Jolly Sailor"
+        "The Jolly Sailor",
+        "Giggling Squid"
       ]
 
       def lunch(response)
